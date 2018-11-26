@@ -5,22 +5,19 @@ function loadBoxes(data) {
         if (!project.exclude) {
             generateBox(project.title, 
                         project.id, 
-                        'projects/' + project.imageUrl, 
-                        project.description,
-                        'projects/' + project.url);
+                        project.description);
         }
     }
 }
 
-function generateBox(name, id, imageUrl, strDescription, url) {
+function generateBox(name, id, strDescription) {
     var container = document.getElementById("grid");
     //Item
     var item = document.createElement("div");    
     item.setAttribute("class", "item");
         //a href
         var link = document.createElement("a");
-        if (url) link.setAttribute("href", url);
-        else link.setAttribute("href", "project.html#" + id);
+        link.setAttribute("href", "project.html#" + id);
 
             //imageContainer
             var imageContainer = document.createElement("div");
@@ -32,9 +29,7 @@ function generateBox(name, id, imageUrl, strDescription, url) {
 
                     //img
                     var img = document.createElement("img");
-                    img.setAttribute("src", imageUrl);
-                    img.classList.add("freezeframe");
-                    img.classList.add("freezeframe-responsive");
+                    img.setAttribute("src", "./res/" + id + ".png");
 
                 //overlay
                 var overlay = document.createElement("div");

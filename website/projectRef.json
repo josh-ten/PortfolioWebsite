@@ -2,7 +2,6 @@
     {
         "title": "Pendulum",
         "id": "pendulum",
-        "imageUrl": "pendulum/demo.png",
         "description": "Pendulum Simulator",
         "files": [
             "sketch.js",
@@ -11,162 +10,262 @@
     },
     {
         "title": "Rainbow Keys",
-        "url": "rainbowKeys/index.html",
-        "imageUrl": "rainbowKeys/demo.png",
-        "description": ""
+        "id": "rainbowKeys",
+        "description": "Recreation of the Razor keyboard effect",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Attractive Bubbles",
+        "id": "attractiveBubbles",
         "url": "attractiveBubbles/index.html",
-        "imageUrl": "attractiveBubbles/demo.png",
-        "description": ""
+        "description": "",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Click Click Click",
+        "id": "clickClickClick",
         "url": "clickClickClick/index.html",
-        "imageUrl": "clickClickClick/demo.png",
-        "description": ""
+        "description": "",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Fluid Simulator",
+        "id": "fluidSimulator",
         "url": "fluid/index.html",
         "imageUrl": "fluid/demo.png",
-        "description": ""
+        "description": "",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Melbourne Storm",
+        "id": "melbourneStorm",
         "url": "melbourneStorm/index.html",
         "imageUrl": "melbourneStorm/demo.png",
-        "description": ""
+        "description": "",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Soft",
+        "id": "soft",
         "url": "soft/index.html",
         "imageUrl": "soft/demo.png",
-        "description": ""
+        "description": "",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Sunflower Generator",
+        "id": "sunflowerGenerator",
         "url": "sunflowerGenerator/index.html",
         "imageUrl": "sunflowerGenerator/demo.png",
-        "description": ""
+        "description": "",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Dancing Bois",
+        "id": "dancingBois",
         "url": "dancingBois/index.html",
         "imageUrl": "dancingBois/demo.png",
-        "description": ""
+        "description": "",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Lissajous Curves",
+        "id": "lissajousCurves",
         "url": "lissajousCurve/index.html",
         "imageUrl": "lissajousCurve/demo.png",
-        "description": ""
+        "description": "",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "UNO WHAT IT IS",
+        "id": "unoWhatItIs",
         "url": "unoWhatItIs/index.html",
         "imageUrl": "unoWhatItIs/demo.png",
-        "description": ""
+        "description": "",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "[[Untitled]]",
+        "id": "untitled",
         "url": "untitled/index.html",
         "imageUrl": "untitled/demo.png",
-        "description": ""
+        "description": "",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Windows 7 Bubbles",
+        "id": "windows7Bubbles",
         "url": "windows7bubbles/index.html",
         "imageUrl": "windows7bubbles/demo.png",
-        "description": "The bubbles from that windows 7 screensaver but cooler"
+        "description": "The bubbles from that windows 7 screensaver but cooler",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Box City",
+        "id": "boxCity",
         "url": "boxCity/index.html",
         "imageUrl": "boxCity/demo.png",
-        "description": "Box is triggered"
+        "description": "Box is triggered",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Alpha Patterns",
+        "id": "alphaPatterns",
         "url": "alphaPatterns/index.html",
         "imageUrl": "alphaPatterns/demo.png",
-        "description": "Almost like the matrix but circles"
+        "description": "Almost like the matrix but circles",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Space Sim",
+        "id": "spaceSim",
         "url": "spaceSim/index.html",
         "imageUrl": "spaceSim/spaceSimGame0.png",
-        "description": "Space Sim: Tiny astronauts float around space and grapple to each other"
+        "description": "Space Sim: Tiny astronauts float around space and grapple to each other",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Mouse Bubbles",
+        "id": "mouseBubbles",
         "url": "mouseBubbles/index.html",
         "imageUrl": "mouseBubbles/demo.png",
-        "description": "Really satisfying bubble swarming physics engine"
+        "description": "Really satisfying bubble swarming physics engine",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Fear",
+        "id": "fear",
         "url": "Fear-JoshTen-LudumDare40/index.html",
         "imageUrl": "Fear-JoshTen-LudumDare40/demo.png",
         "description": "(Ludum Dare Entry) Fear: Avoid your fears but they'll still get worse.",
+        "files": [
+            "sketch.js"
+        ],
         "exclude": "true"
     },
     {
         "title": "Gravity Lines",
+        "id": "gravityLines",
         "url": "gravityLines/index.html",
         "imageUrl": "gravityLines/demo.png",
-        "description": "Gravity Lines: Gravity physics simulator"
+        "description": "Gravity Lines: Gravity physics simulator",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Gravity Lines 2",
+        "id": "gravityLines2",
         "url": "gravityLinesv2/index.html",
         "imageUrl": "gravityLinesv2/demo.png",
-        "description": "Gravity Lines 2: Colourful instantaneous gravity physics simulator (Kinda trippy)"
+        "description": "Gravity Lines 2: Colourful instantaneous gravity physics simulator (Kinda trippy)",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Sprout",
+        "id": "sprout",
         "url": "Sproutv2/index.html",
         "imageUrl": "Sproutv2/demo1.gif",
-        "description": "Sprout: Fly upwards through destructable terrain at increasing speeds."
+        "description": "Sprout: Fly upwards through destructable terrain at increasing speeds.",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Connecting Vertices",
+        "id": "connectingVertices",
         "url": "connectingVertices/index.html",
         "imageUrl": "connectingVertices/demo.gif",
-        "description": "A cool little psychadelic geometry thing"
+        "description": "A cool little psychadelic geometry thing",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Connecting Vertices 2",
+        "id": "connectingVertices2",
         "url": "connectingVertices2/index.html",
         "imageUrl": "connectingVertices2/demo.gif",
-        "description": "Flat travelling paths"
+        "description": "Flat travelling paths",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Sine Particles",
+        "id": "sineParticles",
         "url": "sineParticles/index.html",
         "imageUrl": "sineParticles/demo.png",
         "description": "Sine Particles: Control the speed and depth of some particles following a sine wave!",
+        "files": [
+            "sketch.js"
+        ],
         "exclude": "true"
     },
     {
         "title": "Fractal Tree",
+        "id": "fractalTree",
         "url": "fractalTree/index.html",
         "imageUrl": "fractalTree/demo.gif",
         "description": "Psychadelic fractal tree :O",
+        "files": [
+            "sketch.js"
+        ],
         "exclude": "true"
     },
     {
         "title": "Flowing Particles",
+        "id": "flowingParticles",
         "url": "flowingParticles/index.html",
         "imageUrl": "flowingParticles/demo.png",
-        "description": "Flowing Particles: A neat visualiser of randomly flowing colourful particles."
+        "description": "Flowing Particles: A neat visualiser of randomly flowing colourful particles.",
+        "files": [
+            "sketch.js"
+        ]
     },
     {
         "title": "Orbit Particles",
+        "id": "orbitParticles",
         "url": "orbitParticles/index.html",
         "imageUrl": "orbitParticles/demo.png",
         "description": "Orbit Particles: A neat visualiser of gravity-like controlled flowing colourful particles.",
+        "files": [
+            "sketch.js"
+        ],
         "exclude": "true"
     },
     {
@@ -174,6 +273,9 @@
         "url": "sineParticlesFireworks/index.html",
         "imageUrl": "sineParticlesFireworks/demo.gif",
         "description": "Fireworks: A neat visualiser particles which shoot fireworks onclick.",
+        "files": [
+            "sketch.js"
+        ],
         "exclude": "true"
     },
     {
@@ -181,6 +283,9 @@
         "url": "EggInc/index.html",
         "imageUrl": "EggInc/demo.png",
         "description": "Egg Inc: A copycat of the app Egg Inc.",
+        "files": [
+            "sketch.js"
+        ],
         "exclude": "true"
     },
     {

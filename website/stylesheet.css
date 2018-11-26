@@ -6,7 +6,7 @@ html {
 }
 
 p {
-    color: var(--primary-text);
+    /* color: var(--primary-text);  */
 }
 
 * {
@@ -50,7 +50,10 @@ body {
 }
 
 .footer {
-    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0px;
+    background-color: var(--secondary-background);
+    color: var(--primary-background);
     padding: 1px;
     padding-left: 20px;
     margin-top: 10px;
