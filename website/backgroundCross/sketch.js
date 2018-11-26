@@ -1,0 +1,68 @@
+let ratio;
+let backgroundImg;
+
+function setup() {
+  createCanvas(window.innerWidth, window.innerHeight);
+	let canvas = document.getElementById("defaultCanvas0");
+	let container = document.getElementById("canvasContainer");
+  container.appendChild(canvas);
+  
+  ratio = width / height;
+}
+
+function draw() {
+  background(255);
+  
+  fill(53, 138, 207);
+  noStroke();
+  strokeWeight(1);
+  beginShape();
+
+  if (mouseX > mouseY * ratio) {
+    if (mouseX > (height - mouseY) * ratio) {
+      //Right
+      topLeft();
+      topRight();
+    } else {
+      //Top
+      topLeft();
+      bottomLeft();
+    }
+  } else {
+    if (mouseX > (height - mouseY) * ratio) {
+      //Bottom
+      topRight();
+      bottomRight();
+    } else {
+      //Left
+      bottomRight();
+      bottomLeft();
+    }
+  }
+  
+  endShape();
+}
+
+function topLeft() {
+  vertex(0, 0);
+  vertex(mouseX * width, mouseY * width);
+  vertex(width, height);
+}
+
+function topRight() {
+  vertex(0, height);
+  vertex((mouseX - width) * width, mouseY * width);
+  vertex(width, 0);
+}
+
+function bottomLeft() {
+  vertex(0, height);
+  vertex(mouseX * width, (mouseY - height) * width);
+  vertex(width, 0);
+}
+
+function bottomRight() {
+  vertex(0, 0);
+  vertex((mouseX - width) * width, (mouseY - height) * width);
+  vertex(width, height);
+}

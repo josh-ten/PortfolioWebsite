@@ -1,0 +1,58 @@
+html {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    /* cursor: none;  */
+    color: var(--primary-text);
+}
+
+p {
+    color: var(--primary-text);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+}
+
+#site-title {
+    width: fit-content;
+    margin: 20px;
+    padding-bottom: 1em;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    background-color: #333;
+}
+
+.content {
+    align-content: center;
+    background-color: var(--primary-background);
+    padding: 10px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#canvasContainer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+#defaultCanvas0 {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 1px;
+    padding-left: 20px;
+    margin-top: 10px;
+    width: 100%;
+}

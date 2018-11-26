@@ -1,0 +1,36 @@
+/* Style the topnav links */
+.topnav {
+    overflow: hidden;
+    background-color: var(--secondary-background);
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+    border-bottom: 2px solid var(--primary-background);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.568);
+}
+.topnav .nav-item {
+    float: left;
+    border: var(--secondary-background) 5px solid;
+    background-color: var(--secondary-background);
+    width: 100px;
+    position: relative;
+    height: 50px;
+    transition-property: background-color height;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.nav-item:hover {
+    height: 100px;
+    background-color: var(--contrast);
+}
+.nav-item .text {
+    bottom: 10px;
+    position: absolute;
+    width: 100%;
+    color: var(--primary-background);
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+    text-align: center;
+    display: block;
+}
