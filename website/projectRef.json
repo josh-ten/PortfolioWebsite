@@ -36,13 +36,13 @@
     },
     {
         "title": "Fluid Simulator",
-        "id": "fluidSimulator",
+        "id": "fluid",
         "url": "fluid/index.html",
-        "imageUrl": "fluid/demo.png",
         "description": "",
         "files": [
             "sketch.js"
-        ]
+        ],
+        "gitHubName": "Fluid"
     },
     {
         "title": "Melbourne Storm",
