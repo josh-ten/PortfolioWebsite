@@ -166,7 +166,8 @@
         "imageUrl": "mouseBubbles/demo.png",
         "description": "Really satisfying bubble swarming physics engine",
         "files": [
-            "sketch.js"
+            "sketch.js",
+            "bubble.js"
         ]
     },
     {

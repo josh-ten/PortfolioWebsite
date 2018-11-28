@@ -1,4 +1,4 @@
-$.getJSON('./website/projectRef.json', (data) => { 
+$.getJSON('./projectRef.json', (data) => { 
     let url = window.location.href;
     let projectId = url.split('#')[1];
     // console.log(projectId);
