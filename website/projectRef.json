@@ -112,6 +112,7 @@
         "url": "untitled/index.html",
         "imageUrl": "untitled/demo.png",
         "description": "",
+        "gitHubName": "untitled",
         "files": [
             "sketch.js"
         ]
