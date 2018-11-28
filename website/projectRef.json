@@ -62,7 +62,8 @@
         "description": "",
         "files": [
             "sketch.js"
-        ]
+        ],
+        "exclude": "true"
     },
     {
         "title": "Sunflower Generator",
@@ -102,7 +103,8 @@
         "description": "",
         "files": [
             "sketch.js"
-        ]
+        ],
+        "exclude": "true"
     },
     {
         "title": "[[Untitled]]",
@@ -121,7 +123,8 @@
         "imageUrl": "windows7bubbles/demo.png",
         "description": "The bubbles from that windows 7 screensaver but cooler",
         "files": [
-            "sketch.js"
+            "sketch.js",
+            "bubble.js"
         ]
     },
     {
@@ -193,7 +196,8 @@
         "description": "Gravity Lines 2: Colourful instantaneous gravity physics simulator (Kinda trippy)",
         "files": [
             "sketch.js"
-        ]
+        ],
+        "exclude": "true"
     },
     {
         "title": "Sprout",
