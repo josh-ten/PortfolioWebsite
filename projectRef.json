@@ -135,7 +135,8 @@
         "imageUrl": "boxCity/demo.png",
         "description": "Box is triggered",
         "files": [
-            "sketch.js"
+            "sketch.js",
+            "box.js"
         ]
     },
     {

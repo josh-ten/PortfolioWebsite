@@ -1,4 +1,4 @@
-jQuery.getJSON('website/projectRef.json', (data)=>{ loadBoxes(data); });
+jQuery.getJSON('./projectRef.json', (data)=>{ loadBoxes(data); });
 
 function loadBoxes(data) {
     for (let project of data) {
@@ -29,7 +29,7 @@ function generateBox(name, id, strDescription) {
 
                     //img
                     var img = document.createElement("img");
-                    img.setAttribute("src", "./res/" + id + ".png");
+                    img.setAttribute("src", "./res/projectScreenshots/" + id + ".png");
 
                 //overlay
                 var overlay = document.createElement("div");
