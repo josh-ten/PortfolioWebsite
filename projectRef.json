@@ -156,7 +156,11 @@
         "imageUrl": "spaceSim/spaceSimGame0.png",
         "description": "Space Sim: Tiny astronauts float around space and grapple to each other",
         "files": [
-            "sketch.js"
+            "sketch.js",
+			"Astronaut.js",
+			"Planet.js",
+			"Spaceship.js",
+			"Star.js"
         ]
     },
     {
