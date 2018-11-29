@@ -192,7 +192,10 @@
         "imageUrl": "gravityLines/demo.png",
         "description": "Gravity Lines: Gravity physics simulator",
         "files": [
-            "sketch.js"
+            "sketch.js",
+			"particle.js",
+			"path.js",
+			"planet.js"
         ]
     },
     {
@@ -213,7 +216,14 @@
         "imageUrl": "Sproutv2/demo1.gif",
         "description": "Sprout: Fly upwards through destructable terrain at increasing speeds.",
         "files": [
-            "sketch.js"
+            "sketch.js",
+			"GUI.js",
+			"Obstacle.js",
+			"ObstacleSpawner.js",
+			"Pixel.js",
+			"Player.js",
+			"Spray.js",
+			"Thumbstick.js"
         ]
     },
     {
