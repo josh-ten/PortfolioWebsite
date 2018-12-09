@@ -36,7 +36,9 @@ body {
     background-color: var(--primary-background);
     padding: 10px;
     margin-top: 50px;
+    margin-bottom: 50px;
     width: 100%;
+    min-height: 1vh;
 }
 
 #canvasContainer {

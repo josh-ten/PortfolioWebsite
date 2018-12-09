@@ -233,7 +233,8 @@
         "imageUrl": "connectingVertices/demo.gif",
         "description": "A cool little psychadelic geometry thing",
         "files": [
-            "sketch.js"
+            "sketch.js",
+            "particle.js"
         ]
     },
     {
@@ -243,7 +244,9 @@
         "imageUrl": "connectingVertices2/demo.gif",
         "description": "Flat travelling paths",
         "files": [
-            "sketch.js"
+            "sketch.js",
+            "point.js",
+            "traveller.js"
         ]
     },
     {
@@ -275,7 +278,8 @@
         "imageUrl": "flowingParticles/demo.png",
         "description": "Flowing Particles: A neat visualiser of randomly flowing colourful particles.",
         "files": [
-            "sketch.js"
+            "sketch.js",
+            "particle.js"
         ]
     },
     {

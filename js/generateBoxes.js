@@ -2,7 +2,7 @@ jQuery.getJSON('./projectRef.json', (data)=>{ loadBoxes(data); });
 
 function loadBoxes(data) {
     for (let project of data) {
-        if (!project.exclude) {
+        if (!project.exclude && project.title != "") {
             generateBox(project.title, 
                         project.id, 
                         project.description);

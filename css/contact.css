@@ -1,7 +1,11 @@
 #contactDetails {
-  padding: 4em;
+  padding: 4em 8em;
   background-color: var(--primary-background);
   text-align: center;
+  /* max-width: 50%; */
+}
+.aboutMe {
+  padding: 4em;
 }
 
 body {
