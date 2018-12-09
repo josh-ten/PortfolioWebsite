@@ -1,0 +1,41 @@
+.hero {
+  height: 85vh;
+  position: relative;
+}
+
+.profile-pic {
+  display: block;
+  margin: auto;
+  margin-top: 3em;
+  border: solid white 4px;
+  box-shadow: 0 0 3px 1px var(--secondary-background);
+  border-radius: 50%;
+  width: 20%;
+  position: relative;
+}
+
+.site-title {
+  margin: 1em;
+  padding-bottom: 1em;
+  bottom: 0;
+  position: absolute;
+}
+.site-title h1 {
+  display: block;
+  margin: auto;
+}
+
+.scroll-down {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  margin: 2em;
+}
+.scroll-down p {
+  display: block;
+  margin: auto;
+}
+
+.content {
+  padding: 10px;
+}

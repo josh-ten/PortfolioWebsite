@@ -2,70 +2,44 @@
 <html>
 
 <head>
-    <title>Josh Ten JS</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-    <link rel='stylesheet' href='css/colourScheme.css' type='text/css' />
-    <link rel='stylesheet' href='css/stylesheet.css' type='text/css' />
-    <link rel='stylesheet' href='css/topnav.css' type='text/css' />
-    <link rel='stylesheet' href='css/content.css' type='text/css' />
-    <link rel='stylesheet' href='css/contact.css' type='text/css' />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One">
+    <link id='stylesheets' />
+    <link rel='stylesheet' href='./css/contact.css'>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script>
+        $(function () {
+            $('#stylesheets').load('./snippets/header.html');
+            $('#nav').load('./snippets/nav.html');
+        });
+    </script>
 </head>
 
 <body>
-    <div class="topnav">
-        <a href="./index.html">
-            <div class="nav-item">
-                <div class="text">Home</div>
-            </div>
-        </a>
-        <a href="./about.html">
-            <div class="nav-item">
-                <div class="text">About</div>
-            </div>
-        </a>
-        <a href="./contact.html">
-            <div class="nav-item">
-                <div class="text">Contact</div>
-            </div>
-        </a>
-    </div>
+    <div id='nav'></div>
 
-    <div class="content">
-        <div id='contactDetails'>
-            <h1>Want to get in touch?</h1>
-            <p class='email'>joshuatencic@gmail.com</p>
-            <div class='socialItems'>
-                <div class='socialItem'>
-                    <a href='https://www.linkedin.com/in/josh-ten' target="_blank">
-                        <div class='text'>LinkedIn</div>
-                        <div class='image'><img src='./res/Linkedin-logo.png'></div>
-                    </a>
-                </div>
-                <div class='socialItem'>
-                    <a href='https://github.com/josh-ten' target="_blank">
-                        <div class='text'>GitHub</div>
-                        <div class='image'><img src='./res/github-logo.png'></div>
-                    </a>
-                </div>
-                <div class='socialItem'>
-                    <a href='https://codepen.io/josh-ten' target="_blank">
-                        <div class='text'>CodePen</div>
-                        <div class='image'><img src='./res/codepen-logo.png'></div>
-                    </a>
-                </div>
+    <div id='contactDetails'>
+        <h1>Want to get in touch?</h1>
+        <p class='email'>joshuatencic@gmail.com</p>
+        <div class='socialItems'>
+            <div class='socialItem'>
+                <a href='https://www.linkedin.com/in/josh-ten' target="_blank">
+                    <img src='./res/Linkedin-logo.png'>
+                </a>
+            </div>
+            <div class='socialItem'>
+                <a href='https://github.com/josh-ten' target="_blank">
+                    <img src='./res/github-logo.png'>
+                </a>
+            </div>
+            <div class='socialItem'>
+                <a href='https://codepen.io/josh-ten' target="_blank">
+                    <img src='./res/codepen-logo.png'>
+                </a>
             </div>
         </div>
-    </div>
-
-    <div class="footer">
-        <p>Josh Ten JS,
-            <script type="text/javascript">
-                document.write(new Date().getFullYear());
-            </script>
-        </p>
     </div>
 </body>
 

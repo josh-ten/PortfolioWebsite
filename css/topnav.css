@@ -11,7 +11,7 @@
 }
 .topnav .nav-item {
     float: left;
-    border: var(--secondary-background) 5px solid;
+    border: var(--secondary-background) 3px solid;
     background-color: var(--secondary-background);
     width: 100px;
     position: relative;
@@ -19,6 +19,7 @@
     transition-property: background-color height;
     transition: .3s ease-in-out;
     cursor: pointer;
+    min-width: 6em;
 }
 .nav-item:hover {
     height: 100px;
@@ -29,8 +30,8 @@
     position: absolute;
     width: 100%;
     color: var(--primary-background);
-    text-decoration: none;
     transition: color .3s ease-in-out;
     text-align: center;
     display: block;
+    text-transform: uppercase;
 }
