@@ -11,7 +11,6 @@ html {
 h1 {
     font-size: 3em;
     letter-spacing: 0.1em;
-    word-spacing: 0.6em;
 }
 
 body {
@@ -21,7 +20,7 @@ body {
 
 .content {
     align-content: center;
-    margin: 2.5em 0;
+    /* margin: 10vh 0 0; */
     width: 100%;
 }
 

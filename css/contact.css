@@ -39,6 +39,7 @@ img {
 .socialItem img:hover {
   transform: scale(1.1) rotate(5deg);
   -webkit-transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 0 70px 0px var(--contrast);
 }
 
 .content {

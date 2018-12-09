@@ -11,6 +11,8 @@
 
 .profile-photo {
   width: 15em;
+  border: solid 3px white;
+  box-shadow: 0 0 70px 0px var(--contrast);
 }
 
 .grid {

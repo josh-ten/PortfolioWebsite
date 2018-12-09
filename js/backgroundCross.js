@@ -26,7 +26,7 @@ function draw() {
   background(255);
   beginShape();
 
-  if (frameCount % 250 === 0) 
+  if (frameCount % 250 === 0 || frameCount % 100 === 0) 
     originPoint = createVector(random(width), random(height));
 
   let mouse = createVector(mouseX, mouseY);

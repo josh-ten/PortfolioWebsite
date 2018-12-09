@@ -15,7 +15,7 @@
     background-color: var(--secondary-background);
     width: 100px;
     position: relative;
-    height: 50px;
+    height: 3em;
     transition-property: background-color height;
     transition: .3s ease-in-out;
     cursor: pointer;
@@ -34,4 +34,5 @@
     text-align: center;
     display: block;
     text-transform: uppercase;
+    padding: 4px;
 }

@@ -1,0 +1,7 @@
+.content {
+  background-color: var(--primary-background);
+  display: block;
+  min-height: 100vh;
+  /* margin-top: 3em; */
+  padding: 3em;
+}

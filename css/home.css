@@ -6,7 +6,7 @@
 .profile-pic {
   display: block;
   margin: auto;
-  margin-top: 3em;
+  margin-top: 6em;
   border: solid white 4px;
   box-shadow: 0 0 3px 1px var(--secondary-background);
   border-radius: 50%;
