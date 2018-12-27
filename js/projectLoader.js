@@ -35,6 +35,6 @@ function attachCanvasToContainer() {
     container.appendChild(canvas);
 }
 
-window.onresize = () => {
-  resizeCanvas(window.innerWidth, window.innerHeight);
-}
+//window.onresize = () => {
+//  resizeCanvas(window.innerWidth, window.innerHeight);
+//}
