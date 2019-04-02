@@ -26,16 +26,16 @@ function draw() {
   background(255);
   beginShape();
 
-  if (frameCount % 250 === 0 || frameCount % 100 === 0) 
+  if (frameCount % 250 === 0) 
     originPoint = createVector(random(width), random(height));
 
-  let mouse = createVector(mouseX, mouseY);
+  // let mouse = createVector(mouseX, mouseY);
   
-  if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
-    lerpVector(crossPoint, mouse);
-  } else {
+  // if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
+  //   lerpVector(crossPoint, mouse);
+  // } else {
     lerpVector(crossPoint, originPoint);
-  }
+  // }
 
   if (crossPoint.x > crossPoint.y * ratio) {
     if (crossPoint.x > (height - crossPoint.y) * ratio) {
