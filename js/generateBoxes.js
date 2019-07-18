@@ -42,9 +42,11 @@ function generateBox(name, id, strDescription) {
         description.innerHTML = strDescription;
 
     image.appendChild(img);
-    imageContainer.appendChild(image);
-    imageContainer.appendChild(overlay);
-    link.appendChild(imageContainer);
+    // imageContainer.appendChild(image);
+    // imageContainer.appendChild(overlay);
+    // link.appendChild(imageContainer);
+    link.appendChild(image);
+    link.appendChild(overlay);
     item.appendChild(link);
     // item.appendChild(description);
 
