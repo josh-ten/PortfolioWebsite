@@ -10,6 +10,13 @@ $.getJSON('./projectRef.json', data => {
         let fileUrl = hostBaseUrl + gitHubName + '/' + fileName;
         $.getScript(fileUrl);
     }
+
+    let topnav = document.getElementById("topnav");
+    let githubLink = document.createElement("a");
+    githubLink.setAttribute("href", hostBaseUrl + projectId);
+    githubLink.innerHTML = projectId;
+    // https://cdn.jsdelivr.net/gh/josh-ten/AdditiveHarmonics/harmonic.js?_=1563442379444
+    topnav.appendChild(githubLink);
 });
 
 function findDataForId(data, id) {
