@@ -28,6 +28,17 @@
         ]
     },
     {
+        "title": "Collision System",
+        "id": "collisionSystem",
+        "description": "A P.O.C for detecting point-polygon collisions",
+        "files": [
+            "index.js",
+            "ball.js",
+            "line.js",
+            "polygon.js"
+        ]
+    },
+    {
         "title": "Pendulum",
         "id": "pendulum",
         "description": "Pendulum Simulator",
