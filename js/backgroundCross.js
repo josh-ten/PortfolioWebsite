@@ -1,5 +1,4 @@
 let ratio;
-let backgroundImg;
 let crossPoint;
 let originPoint;
 let snapSpeed = 0.2; // 0.1 - 1

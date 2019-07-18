@@ -1,5 +1,33 @@
 [
     {
+        "title": "Additive Harmonics",
+        "id": "additiveHarmonics",
+        "description": "A visualiser for how multiple sine waves can be added together",
+        "files": [
+            "sketch.js",
+            "harmonic.js",
+            "wheel.js"
+        ]
+    },
+    {
+        "title": "Game of Life",
+        "id": "gameOfLife",
+        "description": "Coding challenge to recreate Conway's Game of Life in Javascript",
+        "files": [
+            "sketch.js",
+            "cell.js"
+        ]
+    },
+    {
+        "title": "Aperture",
+        "id": "aperture",
+        "description": "Just an aesthetic aperture animation",
+        "files": [
+            "sketch.js",
+            "connector.js"
+        ]
+    },
+    {
         "title": "Pendulum",
         "id": "pendulum",
         "description": "Pendulum Simulator",
