@@ -4,7 +4,7 @@
         "id": "additiveHarmonics",
         "description": "A visualiser for how multiple sine waves can be added together",
         "files": [
-            "sketch.js",
+            "index.js",
             "harmonic.js",
             "wheel.js"
         ]
@@ -14,7 +14,7 @@
         "id": "gameOfLife",
         "description": "Coding challenge to recreate Conway's Game of Life in Javascript",
         "files": [
-            "sketch.js",
+            "index.js",
             "cell.js"
         ]
     },
@@ -23,7 +23,7 @@
         "id": "aperture",
         "description": "Just an aesthetic aperture animation",
         "files": [
-            "sketch.js",
+            "index.js",
             "connector.js"
         ]
     },
